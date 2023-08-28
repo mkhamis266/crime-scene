@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="gameContainer" class="container-fluid vh-100">
+      <h1 class="text-center mb-3">game name</h1>
+      <div class="row h-75 align-items-stretch">
+        <div class="col-9">
+          <div class="container-fluid h-100">
+            <div class="card h-100">
+              <!-- <div class="fingerprint"></div> -->
+              <div id="wrapper" class="card-body h-100">
+                <!-- <img id="small-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/741142/worldsfair-small.jpg" /> -->
+                <!-- <img id="big-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/741142/worldsfair-large.jpg" /> -->
+                <div id="small-img">
+                  <div class="fingerprint-clue"></div>
+                </div>
+                <div id="big-img">
+                  <div class="fingerprint-clue"></div>
+                </div>
+                <!-- <img id="small-img" src="images/bg.webp" /> -->
+                <!-- <img id="big-img" src="images/bg.webp" /> -->
+                <div id="magnifing-glass"></div>
+                <!-- <img id="magnifing-glass" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/741142/glass.png" /> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card h-100">
+            <div class="card-body h-100">
+              <h5 class="text-center">select correct fingerprint</h5>
+              <div id="timer" class="text-center">00:59</div>
+              <div class="d-flex flex-column p-3">
+                <div  class="col px-5 py-3 fingerprint-choose correct">
+                  <img src="images/fp-1.png" class="img-fluid" alt="" />
+                </div>
+                <div class="col px-5 py-3 fingerprint-choose">
+                  <img src="images/fp-2.png" class="img-fluid" alt="" />
+                </div>
+                <div class="col px-5 py-3 fingerprint-choose">
+                  <img src="images/fp-3.png" class="img-fluid" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/momentjs.com_downloads_moment.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,62 @@
+.crime-scene {
+  /* background-image: url(https://thumbs.dreamstime.com/b/clean-elegant-bathroom-toilet-room-interior-flat-cartoon-vector-illustration-background-furniture-sanitary-199397294.jpg); */
+  background-position: center;
+  background-size: 100% 100%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* cursor: url(../images/magnifying-galss.png); */
+}
+.fingerprint-clue {
+  width: 5%;
+  height: 10%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-image: url(../images/fp-1.png);
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+#wrapper {
+  position: relative;
+}
+
+/* #wrapper img {
+  position: absolute;
+} */
+#small-img {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 400px;
+  height: 200px;
+  background-image: url(../images/bg.webp);
+  background-position: center;
+  background-size: 100%;
+}
+#big-img {
+  top: -82px;
+  left: -110px;
+  position: absolute;
+  pointer-events: none;
+  width: 800px;
+  height: 400px;
+  background-image: url(../images/bg.webp);
+  background-position: center;
+  background-size: 100%;
+  clip-path: circle(0px at center);
+}
+
+#magnifing-glass {
+  top: 0;
+  left: 0;
+  position: absolute;
+  pointer-events: none;
+  width: 100px;
+  height: 100px;
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/741142/glass.png);
+  background-position: center;
+  background-size: 100%;
+  z-index: 100;
+}
