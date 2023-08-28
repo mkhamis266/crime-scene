@@ -1,12 +1,3 @@
-.crime-scene {
-  /* background-image: url(https://thumbs.dreamstime.com/b/clean-elegant-bathroom-toilet-room-interior-flat-cartoon-vector-illustration-background-furniture-sanitary-199397294.jpg); */
-  background-position: center;
-  background-size: 100% 100%;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  /* cursor: url(../images/magnifying-galss.png); */
-}
 .fingerprint-clue {
   width: 5%;
   height: 10%;
@@ -29,8 +20,8 @@
   position: relative;
   top: 0px;
   left: 0px;
-  width: 400px;
-  height: 200px;
+  width: 600px;
+  height: 300px;
   background-image: url(../images/bg.webp);
   background-position: center;
   background-size: 100%;
@@ -40,8 +31,8 @@
   left: -110px;
   position: absolute;
   pointer-events: none;
-  width: 800px;
-  height: 400px;
+  width: 1200px;
+  height: 600px;
   background-image: url(../images/bg.webp);
   background-position: center;
   background-size: 100%;
@@ -59,4 +50,33 @@
   background-position: center;
   background-size: 100%;
   z-index: 100;
+}
+
+.fingerprint-choose {
+  display: flex;
+  justify-content: center;
+}
+
+.fingerprint-choose img {
+  width: 50%;
+  cursor: pointer;
+}
+#message {
+  color: rgb(210, 0, 0);
+  font-size: 1.5rem;
+}
+
+#timer {
+  display: inline-block;
+  background-color: rgba(0, 200, 0, 0.3);
+  border-radius: 15%;
+  padding: 1rem 1.4rem;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+
+#popup .modal-body{
+  font-size: 3rem;
 }
