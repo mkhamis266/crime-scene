@@ -9,7 +9,7 @@ const fingerPrint = document.querySelector("#big-img .fingerprint-clue");
 
 let fingerPrintFound = false;
 let timerInterval;
-let time = 5;
+let time = 15;
 
 smallImg.addEventListener("touchmove", (e) => {
   const xCoord = e.touches[0].clientX;
